@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;  
+    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg');
+    /*perspective: 200px; /* Define a perspectiva 3D */
+    /* background-image: url('https://wallpapers.com/images/hd/high-resolution-galaxy-background-2560-x-1600-qi10b3z2ug2lhv59.jpg'); */
+    
+}
+
+
+.sol {
+    position: absolute;
+    top: 80%;
+    width: 50px;
+    height: 50px;
+    background-image: url('sol3.gif');
+    /* 'https://usagif.com/wp-content/uploads/gifs/sun-40.gif */
+    background-color: yellow;
+    border-radius: 50%;
+    background-position: center;
+    opacity: 10;
+    box-shadow: 10.14px 10.14px 235px 132.5px orange;
+    z-index: -1;
+    background-size: cover;
+    background-clip: content-box;
+   /* transform: rotateX(30deg) rotateY(0deg); /* Inclina a cena em 60 graus no eixo X e 0 graus no eixo Y */
+
+}
+
+.orbita-mercurio {
+
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+    
+    position: relative;
+    top: 150%;
+    left: 150%;
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: -100px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 2.88s linear infinite;
+    
+}
+
+.mercurio {
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(77, 77, 77);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d0/Mercury.gif?20220616000333.gif');
+    background-position: center;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-size: cover;
+    background-clip: content-box;
+
+}
+
+.orbita-venus {
+
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+
+    position: relative;
+    top: 450%;
+    left: 250%;
+    width: 200px;
+    height: 200px;
+    margin-top: -300px;
+    margin-left: -200px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 7.32s linear infinite;
+    
+}
+
+.venus {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://i.pinimg.com/originals/d3/aa/38/d3aa38b40948b7ca8c7ce2873e85fe01.gif');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.orbita-terra {
+
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+
+    position: relative;
+    top: 950%;;
+    left: 350%;
+    width: 300px;
+    height: 300px;
+    margin-top: -500px;
+    margin-left: -300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 12s linear infinite;
+    
+}
+
+.terra {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(103, 108, 255);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://i.pinimg.com/originals/dd/e4/dc/dde4dc84d9651a4d0556030d97b8195f.gif');
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    
+
+}
+
+.orbita-marte {
+
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+
+    position: relative;
+    top: 1350%;                                    
+    left: 550%;                                      
+    width: 400px;                                 
+    height: 400px;                                 
+    margin-top: -550px;                            
+    margin-left: -450px;                            
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 22.56s linear infinite;
+}
+
+.marte {
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://i.pinimg.com/originals/38/bc/56/38bc56565ead27975dadedaa937f6840.gif');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.orbita-asteroides {
+
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+
+    position: relative;
+    top: 710px;                                    
+    left: 299%;                                      
+    width: 650px;                                 
+    height: 650px;                                 
+    margin-top: -550px;                            
+    margin-left: -450px;                            
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    animation: rotate 15s linear infinite;
+}
+
+.cinturaodeasteroides {
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url(cinturao-de-asteroides.png);
+    background-position: center;
+background-size: cover;
+
+}
+
+
+.orbita-jupiter {
+    
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+    
+    position: relative;
+    top: 600px;                                    
+    left: 130px;                                      
+    width: 800px;                                 
+    height: 785px;                                 
+    margin-top: -600px;                            
+    margin-left: -500px;                            
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 150s linear infinite;
+    
+    
+}
+
+.jupiter {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/55/Jupiter_Rotation_Movie_-_Hubble_2015.gif');
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.orbita-saturno {
+    
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+    
+    position: relative;
+    top: 250px;                                    
+    left: -17px;                                      
+    width: 1000px;                                 
+    height: 1000px;                                 
+    margin-top: -550px;                            
+    margin-left: -450px;                            
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 200s linear infinite;
+    
+}
+
+.saturno {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 130px;
+    height: 60px;
+    border-radius: 0%;
+    transform: translateX(-50%);
+    background-image: url('saturno.png');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.orbita-urano {
+    
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+    
+    position: relative;
+    top: -300px;                                    
+    left: -100px;                                      
+    width: 1200px;                                 
+    height: 1200px;                                 
+    margin-top: -550px;                            
+    margin-left: -450px;                            
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 250s linear infinite;
+    
+}
+
+.urano {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://media.tenor.com/Cc8vOIn32VgAAAAM/uranus-planet.gif');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.orbita-netuno {
+    
+    /* TOP: altera a posição da orbita (pra cima) */
+    /* LEFT: altera a posição da orbita (pra esquerda) */
+    /* WIDTH: altera a largura da orbita */
+    /* HEIGHT: altera a altura da orbita */
+    /* MARGIN-TOP: altera a posição da orbita */
+    /* MARGIN-LEFT: altera a posição da orbita */
+    
+    position: relative;
+    top: -1050px;                                    
+    left: -200px;                                      
+    width: 1400px;                                 
+    height: 1400px;                                 
+    margin-top: -550px;                            
+    margin-left: -450px;                            
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: rotate 300s linear infinite;
+    
+}
+
+.netuno {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    background-image: url('https://guiadaalma.com.br/wp-content/uploads/2018/01/guia-da-alma-netuno-gif.gif');
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.dropdown-item {
+    font-family: monospace;
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #0000ff; /* Cor do botão */
+    border: 1px solid #0000ff; /* Borda do botão */
+    border-radius: 5px; /* Arredondamento do botão */
+    cursor: pointer; /* Mudança do cursor para indicar botão clicável */
+    transition: background-color 0.3s; /* Suaviza a transição da cor */
+}
+
+.dropdown-item-container {
+    display: flex;
+    flex-direction: column; /* Organiza cada botão e seu conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo em cada coluna */
+    margin-right: 15px; /* Espaço entre cada botão */
+}
+
+.dropdown-item:hover {
+    background-color: #003399; /* Cor ao passar o mouse */
+}
+
+.dropdown-menu {
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+}
+
+.info {
+    display: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.menu {
+    font-size: larger;
+    color: white;
+    
+}
+
+/* Exibe o conteúdo quando o checkbox correspondente estiver marcado */
+input[type="checkbox"]:checked + .info {
+    display: block;
+}
+
+/* Oculta o checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
