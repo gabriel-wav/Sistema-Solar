@@ -15,9 +15,9 @@ body {
     margin: 0 auto;
     background-size: cover;
     background-position: center;  
-    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg');
+    background-image: url('./images/fundo_galaxia.avif');
+    /* https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpeg */
     /*perspective: 200px; /* Define a perspectiva 3D */
-    /* background-image: url('https://wallpapers.com/images/hd/high-resolution-galaxy-background-2560-x-1600-qi10b3z2ug2lhv59.jpg'); */
     
 }
 
@@ -27,7 +27,7 @@ body {
     top: 80%;
     width: 50px;
     height: 50px;
-    background-image: url('sol3.gif');
+    background-image: url('./images/sol.gif');
     /* 'https://usagif.com/wp-content/uploads/gifs/sun-40.gif */
     background-color: yellow;
     border-radius: 50%;
@@ -70,7 +70,8 @@ body {
     width: 5px;
     height: 5px;
     background-color: rgb(77, 77, 77);
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d0/Mercury.gif?20220616000333.gif');
+    background-image: url('./images/mercurio.gif');
+    /* https://upload.wikimedia.org/wikipedia/commons/d/d0/Mercury.gif?20220616000333.gif */
     background-position: center;
     border-radius: 50%;
     transform: translateX(-50%);
@@ -110,7 +111,8 @@ body {
     background-color: rgb(255, 145, 0);
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url('https://i.pinimg.com/originals/d3/aa/38/d3aa38b40948b7ca8c7ce2873e85fe01.gif');
+    background-image: url('./images/venus.gif');
+    /* https://i.pinimg.com/originals/d3/aa/38/d3aa38b40948b7ca8c7ce2873e85fe01.gif */
     background-position: center;
     background-size: cover;
 
@@ -147,7 +149,8 @@ body {
     background-color: rgb(103, 108, 255);
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url('https://i.pinimg.com/originals/dd/e4/dc/dde4dc84d9651a4d0556030d97b8195f.gif');
+    background-image: url('./images/terra.gif');
+    /* https://i.pinimg.com/originals/dd/e4/dc/dde4dc84d9651a4d0556030d97b8195f.gif */
     background-position: center;
     background-size: cover;
     background-clip: content-box;
@@ -184,7 +187,8 @@ body {
     height: 17px;
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url('https://i.pinimg.com/originals/38/bc/56/38bc56565ead27975dadedaa937f6840.gif');
+    background-image: url('./images/marte.gif');
+    /* https://i.pinimg.com/originals/38/bc/56/38bc56565ead27975dadedaa937f6840.gif */
     background-position: center;
     background-size: cover;
 
@@ -219,9 +223,9 @@ body {
     height: 100%;
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url(cinturao-de-asteroides.png);
+    background-image: url('./images/cinturao-de-asteroides.png');
     background-position: center;
-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -257,7 +261,8 @@ background-size: cover;
     height: 80px;
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/55/Jupiter_Rotation_Movie_-_Hubble_2015.gif');
+    background-image: url('./images/jupiter.gif');
+    /* https://upload.wikimedia.org/wikipedia/commons/5/55/Jupiter_Rotation_Movie_-_Hubble_2015.gif */
     background-position: center;
     background-size: cover;
     background-clip: content-box;
@@ -293,7 +298,7 @@ background-size: cover;
     height: 60px;
     border-radius: 0%;
     transform: translateX(-50%);
-    background-image: url('saturno.png');
+    background-image: url('./images/saturno.png');
     background-position: center;
     background-size: cover;
 
@@ -330,7 +335,8 @@ background-size: cover;
     height: 25px;
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url('https://media.tenor.com/Cc8vOIn32VgAAAAM/uranus-planet.gif');
+    background-image: url('./images/urano.gif');
+    /* https://media.tenor.com/Cc8vOIn32VgAAAAM/uranus-planet.gif */
     background-position: center;
     background-size: cover;
 
@@ -367,7 +373,8 @@ background-size: cover;
     height: 22px;
     border-radius: 50%;
     transform: translateX(-50%);
-    background-image: url('https://guiadaalma.com.br/wp-content/uploads/2018/01/guia-da-alma-netuno-gif.gif');
+    background-image: url('./images/netuno.gif');
+    /* https://guiadaalma.com.br/wp-content/uploads/2018/01/guia-da-alma-netuno-gif.gif */
     background-position: center;
     background-size: cover;
 
